@@ -1,20 +1,9 @@
 // const iState = {
-//   favorites: {
-//     content: [],
-//   },
+//   favorites: [],
 // };
 
 // const mainReducer = (state = iState, action) => {
 //   switch (action.type) {
-//     case "ADD_TO_FAVORITE":
-//       return {
-//         ...state,
-//         favorites: {
-//           ...state.favorites,
-//           content: [...state.favorites.content, action.payload],
-//         },
-//       };
-
 //     case "REMOVE_TO_FAVORITE":
 //       return {
 //         ...state,

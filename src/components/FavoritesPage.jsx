@@ -1,10 +1,10 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { REMOVE_TO_FAVORITE, removeToFavoriteAction } from "./redux/actions";
+import { removeToFavoriteAction } from "./redux/actions";
 
 const FavoritesPage = () => {
-  const favorites = useSelector(state => state.favorites.content);
+  const favorites = useSelector(state => state.content.content);
   const dispatch = useDispatch();
   console.log(favorites);
   return (
